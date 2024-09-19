@@ -1,2 +1,2 @@
-# daniel
-Portfolio
+# Daniel Krutikov
+Software Engineer and DevOps.
