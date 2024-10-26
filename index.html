@@ -1,17 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Daniel Krutikov | Software Engineer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daniel Krutikov | Software Engineer</title>
+<style>
+  /* Reset default margin and padding */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Body styles for full height */
+  body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: start;       /* Align items at the top */
+    font-family: Arial, sans-serif;
+  }
+
+  /* Offset div styling */
+  .offset-div {
+    margin-top: 10vh;           /* 10% off the top of the viewport */
+    width: 90%;                 /* Takes up 90% of screen width */
+    max-width: 500px;           /* Constrains size on larger screens */
+    padding: 20px;
+    background-color: #d4d4d4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+</style>
 </head>
 <body>
-	<div style="height: 400px; display: grid; place-items: center;">
-  		<div style="background: lavender; border-radius: 10px 10px 10px 10px; text-align: center; padding: 10px; width: 450px; height: 200px;">
-			<p style="font-size: 20px;">Daniel Krutikov</p>
+	<div class="offset-div">
+		<p style="font-size: 20px;">Daniel Krutikov</p>
 			<hr class="solid">
 			<h2>Software Engineer</h2>
-			<p>2018 May - Joined Intel as a Software Engineer</p>
-			<p><a href="mailto:dk1989@gmail.com">dk1989@gmail.com</a>&nbsp;| Winnipeg, MB | <a href="https://www.linkedin.com/in/daniel-krutikov">LinkedIn</a> | <a href="https://github.com/dmdddd?tab=repositories">GitHub</a></p>
-		</div>
+			<br>
+			<p>2018 - 2024: Software Engineer at Intel</p>
+			<br>
+		<p><a href="mailto:dk1989@gmail.com">dk1989@gmail.com</a>&nbsp;| Winnipeg, MB | <a href="https://www.linkedin.com/in/daniel-krutikov">LinkedIn</a> | <a href="https://github.com/dmdddd?tab=repositories">GitHub</a></p>
 	</div>
 </body>
 </html>
