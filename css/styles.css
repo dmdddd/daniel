@@ -2707,6 +2707,11 @@ td:last-child {
     margin-top    : 0;
 }
 
+.logo {
+	font-family   : var(--font-1);
+	color: white;
+}
+
 .text-display-title {
     font-size     : var(--text-display-1);
     line-height   : 1.0717;
